@@ -1,14 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Your App Title</title>
+  <title>email-frontend</title>
   %sveltekit.head%
 </head>
-<body class="bg-slate-600">
+<body>
   <div id="svelte">
     %sveltekit.body%
+    <section>
+      <div>
+          <img src="https://api.dicebear.com/9.x/fun-emoji/svg?seed=Eden">
+      </div>
+      <div>
+        <form action="/search" method="GET">
+      
+          <div>
+            <input type="text" name="busqueda" placeholder="🔍 search contacts..">
+          
+          </div>
+        </form>
+      </div>
+    </section>
+    <section>
+      <div>
+        <img src="https://api.dicebear.com/9.x/fun-emoji/svg?seed=Eden">
+        <p>Mireya Conner</p>
+        <p>Online</p>
+      </div>
+    </section>
+    <section>
+      <div>
+        <img src="https://api.dicebear.com/9.x/fun-emoji/svg?seed=Eden">
+      </div>
+      <div>
+        <p>Mireya Conner</p>
+        <p>HR Recruiter</p>
+      </div>
+    </section>
   </div>
 </body>
 </html>
